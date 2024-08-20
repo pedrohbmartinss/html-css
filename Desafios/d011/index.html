@@ -6,20 +6,21 @@
     <title>Astronauta</title>
     <style>
         body{
+            position: relative;
             background-image: url('imagens/espaco.jpg');
-            background-position: center center;
-            background-repeat: no-repeat;
             background-size: cover;
-            height: 100vh;
-            position: absolute;
+            height: 100vw;
             
         }
 
         img{
-            position: relative;
-            top: 5%;
-            left: 5%;
-            transform: translate(-50% -50%);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            background-size: 100% 100%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 400px;
         }
     </style>
 </head>
