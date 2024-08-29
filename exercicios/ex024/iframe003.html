@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça sua escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus consequuntur, commodi reprehenderit vitae sit esse eaque optio, perspiciatis officiis quasi, id suscipit aperiam repellat voluptas eum dignissimos. Cumque, odit sequi!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira pagina</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae earum, similique illum animi perferendis iusto soluta maxime nobis provident eligendi possimus, obcaecati fuga delectus debitis maiores harum laboriosam ab quae.</p>
+
+    <iframe srcdoc="<h1>Escolha uma opção acima</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae earum, similique illum animi perferendis iusto soluta maxime nobis provident eligendi possimus, obcaecati fuga delectus debitis maiores harum laboriosam ab quae.</p>" id="tela" name="frame">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque ipsa magni quae aut aliquid deleniti asperiores eius! Iste saepe quo nesciunt sequi quisquam asperiores non, nostrum repellendus obcaecati labore deleniti! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum magnam ex velit, sunt rem beatae delectus, ratione aliquid maxime similique hic at adipisci minus recusandae voluptatibus sit qui fugiat inventore?</p>
+    
+</body>
+</html>
