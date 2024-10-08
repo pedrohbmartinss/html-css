@@ -15,3 +15,11 @@ html{
 menu{
     display: none;
 }
+
+article::after{
+    content:'Esse artigo foi impresso atraves do site www.cursoemvideo.com';
+}
+
+article{
+    width: 100%;
+}
